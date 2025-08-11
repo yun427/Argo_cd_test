@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: message-server
-        image: 192.168.2.92/jenkins/message-server # 使用ArgoCD自动替换版本
+        image: 192.168.2.92/jenkins/message-server
         ports:
         - containerPort: 22339
         resources:
