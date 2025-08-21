@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: message-server
-        image: 192.168.2.92/jenkins/message-server:latest
+        image: 192.168.2.92/jenkins/message-server:v121
         imagePullPolicy: Always
         ports:
         - containerPort: 22339
